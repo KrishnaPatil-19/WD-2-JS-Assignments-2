@@ -4,7 +4,7 @@ n = prompt("Enter a no for Fibonacci Series:");
 n = Number.parseInt(n);
 for(i=1;i<=n;i++)
 {
-  console.log("\t%d", next); //find method to print on same line in JS
+  console.log("\t%d", next);
   next=first+second;
   first=second;
   second=next;
